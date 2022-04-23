@@ -1,7 +1,10 @@
 {
   "resources": [
+    {"id":{"name":"map_random","path":"rooms/map_random/map_random.yy",},"order":15,},
     {"id":{"name":"sp_Evilo_idle","path":"sprites/sp_Evilo_idle/sp_Evilo_idle.yy",},"order":0,},
     {"id":{"name":"sp_Slime_idle","path":"sprites/sp_Slime_idle/sp_Slime_idle.yy",},"order":0,},
+    {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":1,},
+    {"id":{"name":"Room_goto","path":"objects/Room_goto/Room_goto.yy",},"order":16,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -16,6 +19,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"map_random","path":"rooms/map_random/map_random.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
