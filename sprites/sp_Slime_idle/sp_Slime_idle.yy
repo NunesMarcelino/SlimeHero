@@ -41,7 +41,7 @@
     "spriteId": {"name":"sp_Slime_idle","path":"sprites/sp_Slime_idle/sp_Slime_idle.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 1.5,
+    "playbackSpeed": 5.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
