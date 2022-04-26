@@ -25,7 +25,7 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"d81625b2-f609-4b7f-9364-88851307178d","path":"sprites/sp_healthBarBackgound/sp_healthBarBackgound.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d81625b2-f609-4b7f-9364-88851307178d","path":"sprites/sp_healthBarBackgound/sp_healthBarBackgound.yy",},"LayerId":{"name":"de9ae137-c084-419d-85e4-124616161434","path":"sprites/sp_healthBarBackgound/sp_healthBarBackgound.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"d81625b2-f609-4b7f-9364-88851307178d","path":"sprites/sp_healthBarBackgound/sp_healthBarBackgound.yy",},"LayerId":{"name":"fbbf6f3a-e564-409a-91c8-a9ad6bf70962","path":"sprites/sp_healthBarBackgound/sp_healthBarBackgound.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sp_healthBarBackgound","path":"sprites/sp_healthBarBackgound/sp_healthBarBackgound.yy",},"resourceVersion":"1.0","name":"d81625b2-f609-4b7f-9364-88851307178d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"de9ae137-c084-419d-85e4-124616161434","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"fbbf6f3a-e564-409a-91c8-a9ad6bf70962","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": {
     "left": 0,
@@ -93,8 +93,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "UI",
-    "path": "folders/Sprites/UI.yy",
+    "name": "HealthBar",
+    "path": "folders/Sprites/UI/HealthBar.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_healthBarBackgound",

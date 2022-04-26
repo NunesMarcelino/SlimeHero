@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "UI",
-    "path": "folders/Sprites/UI.yy",
+    "name": "HealthBar",
+    "path": "folders/Sprites/UI/HealthBar.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_healthBar",

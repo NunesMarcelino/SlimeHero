@@ -5,7 +5,7 @@
 //shadow  is a maybe, can be removed later
 draw_set_alpha(.6);
 draw_set_color(c_dkgray);
-draw_ellipse(x-20,y+70,x+80,y+80,false);
+draw_ellipse(x-10,y+45,x+70,y+65,false);
  
 //draw own sprite.
 draw_set_alpha(1);
