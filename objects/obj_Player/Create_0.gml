@@ -5,8 +5,8 @@
 
 #macro LayerSize = 35;
 
-ipx = 0;
-ipy = 0;
+ipx = 32;
+ipy = 32;
 
 obj_Player.x = ipx;
 obj_Player.y = ipy;
@@ -20,8 +20,6 @@ xspd = 0;
 yspd = 0;
 spdMod = 1;
 
-//create colision box 72x72
-
 //set attack state
 isAttacking = false;
 attackType = 0;
@@ -33,11 +31,16 @@ isHit = false;
 
 stun_time = 1; //time till the player can be hurted again
 
+//health bar
 healthbar_width = 150;
 healthbar_heigth = 18;
 
 healthbar_x = 35;
 healthbar_y = 35;
+
+//attack Cooldown
+
+attackCD = 0.25;
 
 
 

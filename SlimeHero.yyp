@@ -4,6 +4,8 @@
     {"id":{"name":"sp_healthBar","path":"sprites/sp_healthBar/sp_healthBar.yy",},"order":0,},
     {"id":{"name":"obj_Attack","path":"objects/obj_Attack/obj_Attack.yy",},"order":2,},
     {"id":{"name":"rm_random","path":"rooms/rm_random/rm_random.yy",},"order":1,},
+    {"id":{"name":"ts_grid","path":"sprites/ts_grid/ts_grid.yy",},"order":0,},
+    {"id":{"name":"obj_GameManager","path":"objects/obj_GameManager/obj_GameManager.yy",},"order":3,},
     {"id":{"name":"sp_Evilo_hit","path":"sprites/sp_Evilo_hit/sp_Evilo_hit.yy",},"order":2,},
     {"id":{"name":"obj_Boss","path":"objects/obj_Boss/obj_Boss.yy",},"order":1,},
     {"id":{"name":"sp_Evilo_idle","path":"sprites/sp_Evilo_idle/sp_Evilo_idle.yy",},"order":0,},
@@ -13,7 +15,6 @@
     {"id":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},"order":2,},
     {"id":{"name":"sp_endGame","path":"sprites/sp_endGame/sp_endGame.yy",},"order":4,},
     {"id":{"name":"sp_healthBarBorder","path":"sprites/sp_healthBarBorder/sp_healthBarBorder.yy",},"order":2,},
-    {"id":{"name":"Object4","path":"objects/Object4/Object4.yy",},"order":0,},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":0,},
   ],
   "Options": [

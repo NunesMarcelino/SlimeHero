@@ -14,7 +14,7 @@ speedMod = 1;
 isHit = false;
  
 maxLife = 80;
-currentLife = maxLife;
+Life = maxLife;
  
 onGround = true;
 groundY = y;

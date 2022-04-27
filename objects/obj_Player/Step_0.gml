@@ -78,37 +78,37 @@ attack = keyboard_check_pressed(vk_space)
 
 
 
-
 if (left)
 {
 	x-=spd;
-	lastInput = left;
+	image_xscale=-1
+	lastDirection = "left";
 	
 } else if (right)
 {
 	x+=spd;
-	lastInput = right;
+	image_xscale=1
+	lastDirection = "right";
 }
 
 if (down)
 {
 	y+=spd;
-	lastInput = down;
+	lastDirection = "down";
 } else if (up)
 {
 	y-=spd;
-	lastInput = up;
+	lastDirection = "up";
 }
 
 
 ////////screen colision
 //horizontal collision
-if x > room_width-72 {x = xprevious;}
-if x < 0 {x = 0;}
+if x > room_width - 40{x = xprevious;}
+if x < 32 {x = 32;}
 //vertical collision
-if y > room_height-72 {y = yprevious;}
-if y < 0 {y = 0;}
-
+if y > room_height - 40 {y = yprevious;}
+if y < 32 {y = 32;}
 
 //damage instance example, not necessari permanent code piece
 if !alarm[0]  
