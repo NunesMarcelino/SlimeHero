@@ -11,6 +11,7 @@
     {"id":{"name":"sp_Evilo_idle","path":"sprites/sp_Evilo_idle/sp_Evilo_idle.yy",},"order":0,},
     {"id":{"name":"sp_attack1","path":"sprites/sp_attack1/sp_attack1.yy",},"order":3,},
     {"id":{"name":"AtackState","path":"scripts/AtackState/AtackState.yy",},"order":0,},
+    {"id":{"name":"sp_Evilo_death","path":"sprites/sp_Evilo_death/sp_Evilo_death.yy",},"order":3,},
     {"id":{"name":"sp_Slime_idle","path":"sprites/sp_Slime_idle/sp_Slime_idle.yy",},"order":1,},
     {"id":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},"order":2,},
     {"id":{"name":"sp_endGame","path":"sprites/sp_endGame/sp_endGame.yy",},"order":4,},

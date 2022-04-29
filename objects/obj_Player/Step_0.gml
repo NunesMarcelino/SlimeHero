@@ -75,29 +75,31 @@ down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
 up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
 right = keyboard_check_pressed(vk_right) ||  keyboard_check_pressed(ord("D"));
 attack = keyboard_check_pressed(vk_space)
+stop = keyboard_check(vk_shift)
+
 
 
 
 if (left)
 {
-	x-=spd;
+	if(!stop)x-=spd;
 	image_xscale=-1
 	lastDirection = "left";
 	
 } else if (right)
 {
-	x+=spd;
+	if(!stop)x+=spd;
 	image_xscale=1
 	lastDirection = "right";
 }
 
 if (down)
 {
-	y+=spd;
+	if(!stop)y+=spd;
 	lastDirection = "down";
 } else if (up)
 {
-	y-=spd;
+	if(!stop)y-=spd;
 	lastDirection = "up";
 }
 

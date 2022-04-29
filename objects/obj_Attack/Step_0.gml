@@ -10,3 +10,8 @@ if !alarm[0]
 		alarm[0] = (room_speed * lifeTime);
 	}		
 }
+
+if (image_index>=image_number-1)
+{
+	image_index=0;
+}

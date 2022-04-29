@@ -3,7 +3,6 @@
 	
 function AtackState()
 {
-	show_debug_message(obj_Player.lastDirection)
 	
 	if (obj_Player.lastDirection == "right")
 	{

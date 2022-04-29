@@ -12,5 +12,6 @@ if (Life>0)  //se tiver vida faça step
 
 } else //senao morra
 { 
-	instance_destroy();	
+	sprite_index = sp_Evilo_death
+	if (image_index >= image_number-1)instance_destroy()	
 }

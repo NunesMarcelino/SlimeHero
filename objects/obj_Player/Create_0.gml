@@ -23,6 +23,7 @@ spdMod = 1;
 //set attack state
 isAttacking = false;
 attackType = 0;
+lastDirection = "none";
 
 //set life
 maxLife = 100;
