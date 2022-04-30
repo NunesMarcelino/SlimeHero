@@ -129,3 +129,9 @@ if !alarm[0]
 	instance_destroy();
 	room_goto(rm_end);
 }//control deactive if life equal zero
+
+//passar pelo portal
+
+if(place_meeting(x,y,obj_Portal)){
+	room_goto_next()
+}
