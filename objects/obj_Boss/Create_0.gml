@@ -8,7 +8,7 @@ inicialPosiciony = 360;
 obj_Boss.x = inicialPosicionx;
 obj_Boss.y = inicialPosiciony;
 
-spd = 5;
+spd = 2.5;
 speedMod = 1;	
  
 isHit = false;

@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"c47f7bf8-af27-4c40-8512-73a252b862a2","path":"sprites/sp_Evilo_death/sp_Evilo_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c47f7bf8-af27-4c40-8512-73a252b862a2","path":"sprites/sp_Evilo_death/sp_Evilo_death.yy",},"LayerId":{"name":"1377da61-f0c8-4e77-9e0d-5a48900887ec","path":"sprites/sp_Evilo_death/sp_Evilo_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"c47f7bf8-af27-4c40-8512-73a252b862a2","path":"sprites/sp_Evilo_death/sp_Evilo_death.yy",},"LayerId":{"name":"2bbc7696-4a48-4e15-b25a-bfdb963fecee","path":"sprites/sp_Evilo_death/sp_Evilo_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"c47f7bf8-af27-4c40-8512-73a252b862a2","path":"sprites/sp_Evilo_death/sp_Evilo_death.yy",},"LayerId":{"name":"1377da61-f0c8-4e77-9e0d-5a48900887ec","path":"sprites/sp_Evilo_death/sp_Evilo_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sp_Evilo_death","path":"sprites/sp_Evilo_death/sp_Evilo_death.yy",},"resourceVersion":"1.0","name":"c47f7bf8-af27-4c40-8512-73a252b862a2","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"6b13741d-b8ad-489c-8563-a95f437ccc65","path":"sprites/sp_Evilo_death/sp_Evilo_death.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"6b13741d-b8ad-489c-8563-a95f437ccc65","path":"sprites/sp_Evilo_death/sp_Evilo_death.yy",},"LayerId":{"name":"2bbc7696-4a48-4e15-b25a-bfdb963fecee","path":"sprites/sp_Evilo_death/sp_Evilo_death.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -73,7 +73,7 @@
     "spriteId": {"name":"sp_Evilo_death","path":"sprites/sp_Evilo_death/sp_Evilo_death.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 3.0,
+    "playbackSpeed": 4.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
