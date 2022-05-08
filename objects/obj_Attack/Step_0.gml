@@ -2,7 +2,7 @@
 
 // You can write your code in this editor
 
-if !alarm[0]  
+/*if !alarm[0]  
 {
 	if (place_meeting(x,y,obj_Boss))
 	{

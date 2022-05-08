@@ -4,7 +4,7 @@
 function AtackState()
 {
 	
-	if (obj_Player.lastDirection == "right")
+	/*if (obj_Player.lastDirection == "right")
 	{
 		instance_create_layer(obj_Player.x+72,obj_Player.y,"Instances",obj_Attack)
 	}
@@ -21,5 +21,5 @@ function AtackState()
 	}
 	
 	
-
+*/
 }

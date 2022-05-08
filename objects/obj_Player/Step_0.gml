@@ -4,72 +4,7 @@
 //Get input (keyboard)
 if (actualLife > 0)//control deactive if life equal zero
 {
-	
-/*	xspd = 0;
-	
-	if(keyboard_check_pressed((ord("A"))))
-	{
-		xspd = -1*spd;
-	} else if(keyboard_check((ord("D"))))
-	{
-		xspd = spd;
-	}
-	
-	yspd = 0;
-	
-	if(onGround == true)
-	{
-		if(keyboard_check(ord("W")))
-		{
-			yspd = -1*spd;
-		} else if(keyboard_check(ord("S")))
-		{
-			yspd = spd;
-		}
-	}
-	
-	if(isAttacking == false && isHit = false)
-	{
-         
-    if(onGround==true){    
-    if(xspd != 0 && yspd != 0){
-        x+=xspd*spdMod*.7;
-        y+=yspd*spdMod*.7;
-    }else if(xspd != 0 || yspd != 0){
-        x+=xspd*spdMod;
-        y+=yspd*spdMod;
-    }
-     
-}else if(onGround == false ){
-    x+=xspd*spdMod;
-}
-     
-    if(xspd != 0){
-    image_xscale = sign(xspd*spdMod);
-	}
-     
-    if(xspd == 0 && yspd == 0 && onGround == true){
-    speedMod = 1;
-    sprite_index = sp_Slime_idle;
-}else if((xspd!=0 || yspd != 0) && sprite_index!=sp_attack1 && onGround == true){
-    sprite_index = sp_attack1;
-}
-	}
-	
-	//If the player is on the ground, this sets their groundY variable to their current y position
-if(onGround == true){
-    groundY = y;
-}
- 
-//Sets the Players' depth based on their groundY. We're using groundY instead of y so that even when they're in the air, they will display in fornt of and behind the right objects.
-depth = -1*groundY;
-	
-	
-	if(onGround == true){
-    groundY = y;
-}
-depth = -1*groundY;*/
-	
+		
 left = keyboard_check_pressed(vk_left) ||  keyboard_check_pressed(ord("A"));
 down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
 up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
@@ -78,18 +13,41 @@ attack = keyboard_check_pressed(vk_space)
 stop = keyboard_check(vk_shift)
 
 
+//auto attack player state machine
+if (target != noone)
+{
+	if (instance_exists(target))
+	{
+		
+		if (distance_to_object(target) <= attackRange)
+		{
+			sprite_index = sp_Slime_Attack1;
+			if (canAttack = true)
+			{					
+				canAttack = false;
+				target.Life -= irandom_range(attackDMG-5,attackDMG+5); 
+				alarm[0] = attackSpeed;
+			}  			
+		}
+	}
+	if (image_index >= image_number-1)
+				sprite_index = sp_Slime_idle	
+}
+
+
+
+
+	
 
 
 if (left)
 {
 	if(!stop)x-=spd;
-	image_xscale=-1
 	lastDirection = "left";
 	
 } else if (right)
 {
 	if(!stop)x+=spd;
-	image_xscale=1
 	lastDirection = "right";
 }
 
@@ -102,6 +60,8 @@ if (down)
 	if(!stop)y-=spd;
 	lastDirection = "up";
 }
+
+//player virar na direção do inimigo mais próximo
 
 
 ////////screen colision
@@ -133,5 +93,5 @@ if !alarm[0]
 //passar pelo portal
 
 if(place_meeting(x,y,obj_Portal)){
-	room_goto_next()
+	room_goto(rm_boss1)
 }

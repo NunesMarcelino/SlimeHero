@@ -3,8 +3,6 @@
 
 //inicial position
 
-#macro LayerSize = 35;
-
 ipx = 32;
 ipy = 32;
 
@@ -16,13 +14,8 @@ groundY = y;
 
 //Maximum speed
 spd = 72;
-xspd = 0;
-yspd = 0;
-spdMod = 1;
 
 //set attack state
-isAttacking = false;
-attackType = 0;
 lastDirection = "none";
 
 //set life
@@ -42,6 +35,12 @@ healthbar_y = 35;
 //attack Cooldown
 
 attackCD = 0.25;
+attackDMG = 10;
+target = noone;
+canAttack = true;
+attackSpeed = 30;
+attackRange = 70;
+
 
 
 

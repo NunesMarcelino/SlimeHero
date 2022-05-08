@@ -2,14 +2,13 @@
 // You can write your code in this editor
 
 
-inicialPosicionx = 360;
-inicialPosiciony = 360;
+inicialPosicionx = 392;
+inicialPosiciony = 392;
 
 obj_Boss.x = inicialPosicionx;
 obj_Boss.y = inicialPosiciony;
 
-spd = 2.5;
-speedMod = 1;	
+spd = 1.75;
  
 isHit = false;
  
@@ -20,5 +19,5 @@ onGround = true;
 groundY = y;
  
 image_speed = .75;
- 
-SideMod = 1;
+
+
