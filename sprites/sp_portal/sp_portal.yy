@@ -229,8 +229,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "UI",
-    "path": "folders/Sprites/UI.yy",
+    "name": "Scenary",
+    "path": "folders/Sprites/Scenary.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_portal",

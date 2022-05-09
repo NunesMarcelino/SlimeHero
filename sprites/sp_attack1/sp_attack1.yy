@@ -110,8 +110,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "UI",
-    "path": "folders/Sprites/UI.yy",
+    "name": "Player",
+    "path": "folders/Sprites/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_attack1",
