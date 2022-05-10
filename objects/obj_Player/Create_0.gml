@@ -3,8 +3,8 @@
 
 //inicial position
 
-ipx = 32;
-ipy = 32;
+ipx = 104;
+ipy = 104;
 
 obj_Player.x = ipx;
 obj_Player.y = ipy;
