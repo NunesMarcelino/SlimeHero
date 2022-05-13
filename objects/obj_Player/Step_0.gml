@@ -72,17 +72,6 @@ if x < 32 {x = 32;}
 if y > room_height - 40 {y = yprevious;}
 if y < 32 {y = 32;}
 
-//damage instance example, not necessari permanent code piece
-if !alarm[0]  
-{
-	if (place_meeting(x,y,obj_Boss))
-	{
-		actualLife-=10;
-		alarm[0] = (room_speed * stun_time);
-	}
- 
-}
-
 
 } else
 {
