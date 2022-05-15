@@ -1,4 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-room_goto_next();
+if (room = room_last) 
+{
+	room_goto(rm_startGame)
+}
+else
+	room_goto_next();

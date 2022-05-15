@@ -5,10 +5,10 @@
 if (actualLife > 0)//control deactive if life equal zero
 {
 		
-left = keyboard_check_pressed(vk_left) ||  keyboard_check_pressed(ord("A"));
-down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
-up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
-right = keyboard_check_pressed(vk_right) ||  keyboard_check_pressed(ord("D"));
+left = keyboard_check_pressed(vk_left)
+down = keyboard_check_pressed(vk_down)
+up = keyboard_check_pressed(vk_up)
+right = keyboard_check_pressed(vk_right)
 attack = keyboard_check_pressed(vk_space)
 stop = keyboard_check(vk_shift)
 
