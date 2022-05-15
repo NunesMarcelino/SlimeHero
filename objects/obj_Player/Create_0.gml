@@ -20,6 +20,7 @@ lastDirection = "none";
 
 //set life
 maxLife = 100;
+beforeLife = maxLife;
 actualLife = maxLife;
 isHit = false;
 
@@ -41,7 +42,7 @@ canAttack = true;
 attackSpeed = 30;
 attackRange = 70;
 
-
+receiveDamage = true;
 
 
 

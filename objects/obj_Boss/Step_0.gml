@@ -8,10 +8,8 @@ if (Life>0)  //se tiver vida faça step
     image_xscale = sign(obj_Player.x - x);}
 	
 //dano dentro ao redor do Evilo
-with obj_Player{ // identifica quem vai receber o dano
-if !alarm[0] {
+with obj_Player{ //recebe os eventos e aplica ao obj player
 	Attack1() //Script de dano
-	}
 }
 
 if (Life<70){ //aqui vai ser o attack2

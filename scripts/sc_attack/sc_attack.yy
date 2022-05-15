@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Attack1",
+  "name": "sc_attack",
   "tags": [],
   "resourceType": "GMScript",
 }

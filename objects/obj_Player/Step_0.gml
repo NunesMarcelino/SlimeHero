@@ -12,6 +12,13 @@ right = keyboard_check_pressed(vk_right)
 attack = keyboard_check_pressed(vk_space)
 stop = keyboard_check(vk_shift)
 
+//voltar a receber dano depois de um tempinho
+if actualLife < beforeLife
+{
+	receiveDamage = false
+	beforeLife = actualLife;
+	alarm[1] = room_speed * stun_time
+}
 
 //auto attack player state machine
 if (target != noone)
@@ -25,7 +32,7 @@ if (target != noone)
 			if (canAttack = true)
 			{					
 				canAttack = false;
-				target.Life -= irandom_range(attackDMG-5,attackDMG+5); 
+				target.Life -= irandom_range(attackDMG-5,attackDMG+2); 
 				alarm[0] = attackSpeed;
 			}  			
 		}
