@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "AtackState",
+  "name": "Attack1",
   "tags": [],
   "resourceType": "GMScript",
 }

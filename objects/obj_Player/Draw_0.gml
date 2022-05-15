@@ -12,7 +12,7 @@ draw_set_alpha(1);
 draw_self();
 
 if(attack and !alarm[1]){	
-	AtackState();
+	//AtackState();
 	alarm[1] = (room_speed * attackCD)
 }
 
