@@ -11,6 +11,8 @@ up = keyboard_check_pressed(vk_up)
 right = keyboard_check_pressed(vk_right)
 attack = keyboard_check_pressed(vk_space)
 stop = keyboard_check(vk_shift)
+restart_room = keyboard_check_pressed(ord("R"))
+
 
 //voltar a receber dano depois de um tempinho
 if actualLife < beforeLife
@@ -45,7 +47,7 @@ if (target != noone)
 
 
 	
-
+if restart_room {room_restart()} //reinicia a sala
 
 if (left)
 {
