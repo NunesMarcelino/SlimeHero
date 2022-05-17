@@ -10,6 +10,7 @@ if (Life>0)  //se tiver vida faça step
 //dano dentro ao redor do Evilo
 with obj_Player{ //recebe os eventos e aplica ao obj player
 	Attack1() //Script de dano
+	Hit_Player()
 }
 
 if (Life<70){ //aqui vai ser o attack2
