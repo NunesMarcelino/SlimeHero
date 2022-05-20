@@ -7,6 +7,7 @@ draw_set_alpha(.6);
 draw_set_color(c_dkgray);
 draw_ellipse(x-42,y+13,x+36,y+32,false);
  
+
 //draw own sprite.
 draw_set_alpha(1);
 draw_self();

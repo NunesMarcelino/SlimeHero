@@ -3,8 +3,8 @@
 
 //inicial position
 
-ipx = 104;
-ipy = 104;
+ipx = 93;
+ipy = 99;
 
 obj_Player.x = ipx;
 obj_Player.y = ipy;
@@ -13,7 +13,7 @@ onGround = true;
 groundY = y;
 
 //Maximum speed
-spd = 72;
+spd = 64;
 
 //set attack state
 lastDirection = "none";

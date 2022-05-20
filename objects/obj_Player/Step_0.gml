@@ -53,11 +53,13 @@ if (left)
 {
 	if(!stop)x-=spd;
 	lastDirection = "left";
+	image_xscale = -1
 	
 } else if (right)
 {
 	if(!stop)x+=spd;
 	lastDirection = "right";
+	image_xscale = 1
 }
 
 if (down)
