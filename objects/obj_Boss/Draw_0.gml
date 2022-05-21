@@ -14,4 +14,5 @@ draw_self();
 draw_set_color(c_blue);
 draw_text(x-30,y-70,string(Life)+" / "+string(maxLife));
 
+//draw_path(path,x,y,true) //desenha o caminho
 //

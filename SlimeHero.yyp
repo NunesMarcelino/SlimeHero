@@ -59,6 +59,7 @@
     {"id":{"name":"sp_instrucoes1","path":"sprites/sp_instrucoes1/sp_instrucoes1.yy",},"order":2,},
     {"id":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},"order":9,},
     {"id":{"name":"sp_flower1","path":"sprites/sp_flower1/sp_flower1.yy",},"order":8,},
+    {"id":{"name":"sc_Move_boss","path":"scripts/sc_Move_boss/sc_Move_boss.yy",},"order":2,},
     {"id":{"name":"ts_forest","path":"tilesets/ts_forest/ts_forest.yy",},"order":5,},
     {"id":{"name":"sp_coliderNotYet","path":"sprites/sp_coliderNotYet/sp_coliderNotYet.yy",},"order":11,},
     {"id":{"name":"sc_attack","path":"scripts/sc_attack/sc_attack.yy",},"order":0,},

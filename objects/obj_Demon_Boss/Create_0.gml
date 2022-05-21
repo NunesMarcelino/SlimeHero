@@ -1,7 +1,7 @@
 /// @description 
 
 //posição inicial
-inicialPosicionx = 392;
+inicialPosicionx = 824;
 inicialPosiciony = 176;
 
 obj_Demon_Boss.x = inicialPosicionx;
