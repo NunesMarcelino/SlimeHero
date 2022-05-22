@@ -95,3 +95,4 @@ if y < 32 {y = 32;}
 if(place_meeting(x,y,obj_Portal)){
 	room_goto(rm_boss1)
 }
+draw_set_color(c_white);
