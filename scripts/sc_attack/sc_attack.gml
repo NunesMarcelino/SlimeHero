@@ -18,6 +18,8 @@ function Attack1()
 				if receiveDamage == false //so pisca quando não recebe dano O.o
 				{
 					//fazer o player piscar com o dano recebido
+					image_speed = 3;
+					
 					static _valor = -0.07
 				
 					if (image_alpha <=0) _valor *= -1
@@ -29,6 +31,7 @@ function Attack1()
 					if (sprite_index == sp_Slime_Attack1){
 					image_blend = c_white
 					}*/
+					image_speed = 1;
 				}
 				
 			}
