@@ -8,12 +8,15 @@ function scr_game_text(_text_id)
 	{
 		case "npc 1":
 			scr_text("Eu sou a npc 1, muito prazer")
-			scr_text("sadadsdsd")
+			
 		break;
 		
 		case "npc 2":
-			scr_text("Eu sou a npc 2, muito prazer")
-			scr_text("fgfgfgfgf")
+			scr_text("caminhe ate os pontos verdes para sair daqui")
+			scr_text("ou nao, faca o que quiser eu nao me importo")
+			scr_text("sou apenas um pontinho azul")
+				//scr_option("yeah", "vovo");
+				//scr_option("nope", "vovo");
 		break;
 		
 		case "npc 3":

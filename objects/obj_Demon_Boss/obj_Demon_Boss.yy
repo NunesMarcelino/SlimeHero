@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Boss_demon_idle",
-    "path": "sprites/Boss_demon_idle/Boss_demon_idle.yy",
+    "name": "spr_boss_demon_idle",
+    "path": "sprites/spr_boss_demon_idle/spr_boss_demon_idle.yy",
   },
   "solid": false,
   "visible": true,

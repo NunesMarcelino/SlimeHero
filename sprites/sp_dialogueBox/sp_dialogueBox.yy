@@ -26,8 +26,8 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"db29dac3-6d03-4af2-970d-bd924631150f","path":"sprites/sp_dialogueBox/sp_dialogueBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"db29dac3-6d03-4af2-970d-bd924631150f","path":"sprites/sp_dialogueBox/sp_dialogueBox.yy",},"LayerId":{"name":"00f3e653-01d0-4e1e-b70f-9028b85a1b8c","path":"sprites/sp_dialogueBox/sp_dialogueBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"db29dac3-6d03-4af2-970d-bd924631150f","path":"sprites/sp_dialogueBox/sp_dialogueBox.yy",},"LayerId":{"name":"519feae2-13c4-4d6b-a7f5-b604f3fcef0c","path":"sprites/sp_dialogueBox/sp_dialogueBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"db29dac3-6d03-4af2-970d-bd924631150f","path":"sprites/sp_dialogueBox/sp_dialogueBox.yy",},"LayerId":{"name":"d1a146fb-63b9-4bfc-8e91-bd0322633b1f","path":"sprites/sp_dialogueBox/sp_dialogueBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"db29dac3-6d03-4af2-970d-bd924631150f","path":"sprites/sp_dialogueBox/sp_dialogueBox.yy",},"LayerId":{"name":"519feae2-13c4-4d6b-a7f5-b604f3fcef0c","path":"sprites/sp_dialogueBox/sp_dialogueBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sp_dialogueBox","path":"sprites/sp_dialogueBox/sp_dialogueBox.yy",},"resourceVersion":"1.0","name":"db29dac3-6d03-4af2-970d-bd924631150f","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"ce7d9323-52ca-4814-9a61-922836f4eec1","path":"sprites/sp_dialogueBox/sp_dialogueBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"ce7d9323-52ca-4814-9a61-922836f4eec1","path":"sprites/sp_dialogueBox/sp_dialogueBox.yy",},"LayerId":{"name":"00f3e653-01d0-4e1e-b70f-9028b85a1b8c","path":"sprites/sp_dialogueBox/sp_dialogueBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -79,7 +79,7 @@
     "spriteId": {"name":"sp_dialogueBox","path":"sprites/sp_dialogueBox/sp_dialogueBox.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 1.0,
+    "playbackSpeed": 6.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

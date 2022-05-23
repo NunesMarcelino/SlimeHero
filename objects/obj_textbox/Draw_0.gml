@@ -19,7 +19,6 @@ if setup == false
 	
 	
 	//loop pages
-	page_number = array_length(text);
 	for(var p = 0; p < page_number; p++)
 	{
 		//encontrar quantas letras tem em cada pagina e armazenar em text_length array
