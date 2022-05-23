@@ -1,9 +1,9 @@
 // Script assets have changed for v2.3.0 see
-function src_boss_escolher_action(){
+function src_boss_escolher_ataque(){
 	
 	if alarm[0] <= 0 {
 		
-		var _ataque = choose(src_boss_ataque_1, src_boss_ataque_2, src_boss_follow);
+		var _ataque = choose(src_perseguir);
 		estado = _ataque;
 		alarm[0] = 240;
 }
@@ -20,30 +20,22 @@ function src_boss_ataque_1(){
 		
 		_dir += 45;
 	}
-	estado = src_boss_escolher_action;
+	estado = src_boss_escolher_ataque;
 }
 
 function src_boss_ataque_2(){
 	if distance_to_object(obj_Player) <= attackRange{
-		sprite_index = Boss_demon_ataque;
+		sprite_index = spr_boss_demon_ataque;
 	}
-	estado = src_boss_escolher_action;
+	estado = src_boss_escolher_ataque;
 }
 
-function src_boss_follow(){
-	if distance_to_object(obj_Player) > 70 {
-		grid = mp_grid_create(0,0, room_width / 72, room_height / 72,72,72) // cria grade para o boss andar
-		path = path_add() // add o caminho a seguir
-		dest_x = obj_Player.x;
-		sprite_index = Boss_demon_walk;
-		
-		mp_grid_add_instances(path,obj_Boss,true)
-		mp_grid_path(grid,path,x,y,obj_Player.x,obj_Player.y,false) //cria o caminho até o player
-		path_start(path,1.5,0,true) // inicia o caminho dele
-		estado = src_boss_escolher_action;
+function src_perseguir(){
 
-		
-	} else {
-		estado = src_boss_ataque_2;
-	}
+	grid = mp_grid_create(0,0, room_width / 64, room_height / 64, 64,64)
+	path = path_add();
+
+	mp_grid_add_instances(path, obj_Demon_Boss, true);
+	mp_grid_path(grid, path, x, y, obj_Player.x, obj_Player.y, false)
+	path_start(path, 2, 0, true)
 }

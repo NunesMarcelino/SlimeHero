@@ -43,33 +43,35 @@ if (target != noone)
 				sprite_index = sp_Slime_idle	
 }
 
-
-
-
 	
 if restart_room {room_restart()} //reinicia a sala
 
-if (left)
-{
-	if(!stop)x-=spd;
-	lastDirection = "left";
-	image_xscale = -1
-	
-} else if (right)
-{
-	if(!stop)x+=spd;
-	lastDirection = "right";
-	image_xscale = 1
-}
 
-if (down)
+
+if global.lock == false
 {
-	if(!stop)y+=spd;
-	lastDirection = "down";
-} else if (up)
-{
-	if(!stop)y-=spd;
-	lastDirection = "up";
+	if (left)
+	{
+		if(!stop)x-=spd;
+		lastDirection = "left";
+		image_xscale = -1
+	
+	} else if (right)
+	{
+		if(!stop)x+=spd;
+		lastDirection = "right";
+		image_xscale = 1
+	}
+
+	if (down)
+	{
+		if(!stop)y+=spd;
+		lastDirection = "down";
+	} else if (up)
+	{
+		if(!stop)y-=spd;
+		lastDirection = "up";
+	}
 }
 
 //player virar na direção do inimigo mais próximo

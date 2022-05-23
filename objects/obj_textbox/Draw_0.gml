@@ -54,6 +54,7 @@ if accept_keys
 		else
 		{
 			instance_destroy();
+			global.lock = false;
 		}
 	}
 	//if not done tying
