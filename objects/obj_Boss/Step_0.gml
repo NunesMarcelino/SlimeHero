@@ -3,7 +3,6 @@
  
 if (Life>0)  //se tiver vida faça step
 {
-	Move_boss()
 	
 	if obj_Player.x != x{
     image_xscale = sign(obj_Player.x - x);}
