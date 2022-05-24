@@ -15,9 +15,22 @@ function scr_game_text(_text_id)
 			scr_text("caminhe ate os pontos verdes para sair daqui")
 			scr_text("ou nao, faca o que quiser eu nao me importo")
 			scr_text("sou apenas um pontinho azul")
-				//scr_option("yeah", "vovo");
-				//scr_option("nope", "vovo");
+				scr_option("claro", "npc 2 - sim");
+				scr_option("nem", "npc 2 - nao");
+				scr_option("o que e voce?", "npc 2 - quem");
 		break;
+				case "npc 2 - sim":
+				scr_text("entao voce escolheu a morte?")
+				break;
+				
+				case "npc 2 - nao":
+				scr_text("passar bem")
+				break;
+				
+				case "npc 2 - quem":
+				scr_text(". . .");
+				break
+				
 		
 		case "npc 3":
 			scr_text("Eu sou a npc 3, muito prazer")
@@ -37,6 +50,13 @@ function scr_game_text(_text_id)
 			scr_text("se sentir que chegou ao seu limite, lembre-se do motivo pelo qual voce luta")
 			scr_text("lembre-se por que resolveu trilhar este caminho")
 			scr_text("e permita que esta memoria o carregue alem de seus limites.")
+		break;
+		
+		case "bolso":
+			scr_text("Como eu faco pra conectar o meu plug anal bluetooth com o twitter do Bolsonaro?")
+			scr_text("Basicamente, eu quero configurar o meu plug anal pra vibrar toda vez que o Bolsonaro twittar alguma coisa.")
+			scr_text("So o pensamento dele comendo o meu cuzinho ja me da uma erecao enorme, entao eu quero sentir ele dentro de mim sempre que ele twittar algo.")
+			scr_text("Eu estou trabalhando remotamente por causa do coronga, entao eu posso ficar o dia inteiro com ele enfiado la. Se alguem souber como configurar, por favor me diga!")
 		break;
 	}
 }
