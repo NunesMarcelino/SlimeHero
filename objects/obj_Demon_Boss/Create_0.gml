@@ -11,7 +11,7 @@ obj_Demon_Boss.y = inicialPosiciony;
 //Vida e estados
 estado = src_boss_escolher_action; //iniciar escolha src
 attackRange = 70; // ataque boss
-maxLife = 499;
+maxLife = 1000;
 Life = maxLife;
 spd = 72;
 

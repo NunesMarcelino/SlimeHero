@@ -9,6 +9,7 @@
     {"id":{"name":"Sprite51","path":"sprites/Sprite51/Sprite51.yy",},"order":5,},
     {"id":{"name":"obj_Demon_Boss","path":"objects/obj_Demon_Boss/obj_Demon_Boss.yy",},"order":0,},
     {"id":{"name":"obj_grid","path":"objects/obj_grid/obj_grid.yy",},"order":6,},
+    {"id":{"name":"spr_boss_demon_rise57","path":"sprites/spr_boss_demon_rise57/spr_boss_demon_rise57.yy",},"order":9,},
     {"id":{"name":"TEMPORARIO","path":"objects/TEMPORARIO/TEMPORARIO.yy",},"order":9,},
     {"id":{"name":"sp_path_curved","path":"sprites/sp_path_curved/sp_path_curved.yy",},"order":7,},
     {"id":{"name":"spr_boss_demon_ataque","path":"sprites/spr_boss_demon_ataque/spr_boss_demon_ataque.yy",},"order":2,},
