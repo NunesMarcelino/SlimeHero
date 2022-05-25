@@ -22,5 +22,12 @@ if (Life<70){ //aqui vai ser o attack2
 	sprite_index = sp_Evilo_death
 	
 	if (image_index >= image_number-1)
+		createthemosnter = true;
+		
+		
+}
+
+if createthemosnter = true {
+		instance_create_layer(x,y,"Instances",obj_Demon_Boss);
 		instance_destroy();
 }

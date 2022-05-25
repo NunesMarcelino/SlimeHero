@@ -3,7 +3,7 @@
     "name": "spr_boss_projetil",
     "path": "sprites/spr_boss_projetil/spr_boss_projetil.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -20,7 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
