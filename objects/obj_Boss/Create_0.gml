@@ -12,7 +12,8 @@ spd = 1.75;
  
 isHit = false;
  
-maxLife = 0; 
+maxLife = 100;
+
 Life = maxLife;
  
 onGround = true;
@@ -21,3 +22,5 @@ groundY = y;
 image_speed = .75;
 
 createthemosnter = false;
+
+alarm[0] = 1 * room_speed
