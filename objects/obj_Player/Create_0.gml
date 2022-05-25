@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 global.lock = false;
+global.endgame = false;
 
 //inicial position
 

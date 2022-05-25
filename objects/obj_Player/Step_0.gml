@@ -93,7 +93,13 @@ if y < 32 {y = 32;}
 }//control deactive if life equal zero
 
 //passar pelo portal
-
-if(place_meeting(x,y,obj_Portal)){
-	room_goto(rm_boss1)
-}
+//inicio
+if(place_meeting(x,y,obj_Portal))
+	{
+		room_goto(rm_boss1)
+	}
+//final
+if(place_meeting(x,y,obj_Portal) && global.endgame = true)
+	{
+		room_goto(rm_won);
+	}

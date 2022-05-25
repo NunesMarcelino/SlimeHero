@@ -2,7 +2,10 @@
 draw_self();
 image_xscale = 2;
 image_yscale = 2;
-if dest_x > x{ //inverção de lados imagem
+
+//inverção de lados imagem
+dest_x = obj_Player.x;
+if dest_x > x{ 
 	image_xscale = -2;
 }else {
 	image_xscale = 2;
