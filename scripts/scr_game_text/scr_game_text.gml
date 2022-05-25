@@ -52,6 +52,34 @@ function scr_game_text(_text_id)
 			scr_text("e permita que esta memoria o carregue alem de seus limites.")
 		break;
 		
+		case "lose":
+			scr_text("Nada e facil")
+			scr_text("Mas com forca e determinacao tudo se realiza")
+			scr_text("Nao desista!")
+				scr_option("Ah eu desisto", "lose - sim");
+				scr_option("Voce tem razao voz misteriosa!", "lose - nao");
+		break;
+				case "lose - sim":
+					global.lose = true
+					scr_text("Bom...")
+					scr_text("Eu esperava mais de voce...")
+					scr_text("Mas voce sempre vai poder tentar novamente!")
+				break;
+				
+				case "lose - nao":
+					global.lose = false
+					scr_text("É disso que eu to falando!!")
+				break;
+					
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		case "bolso":
 			scr_text("Como eu faco pra conectar o meu plug anal bluetooth com o twitter do Bolsonaro?")
 			scr_text("Basicamente, eu quero configurar o meu plug anal pra vibrar toda vez que o Bolsonaro twittar alguma coisa.")
