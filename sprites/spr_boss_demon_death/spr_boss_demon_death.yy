@@ -95,7 +95,7 @@
     "spriteId": {"name":"spr_boss_demon_death","path":"sprites/spr_boss_demon_death/spr_boss_demon_death.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 7.0,
+    "playbackSpeed": 5.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
