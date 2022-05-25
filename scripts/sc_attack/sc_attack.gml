@@ -15,8 +15,8 @@ function Attack1()
 					if receiveDamage != false {image_alpha=1 image_blend = c_white} //cor normal quando não recebe dano
 			
 			function Hit_Player(){
-				if receiveDamage == false //so pisca quando não recebe dano O.o
-				{
+				//if receiveDamage == false //so pisca quando não recebe dano O.o
+				//{
 					//fazer o player piscar com o dano recebido
 					image_speed = 3;
 					
@@ -32,7 +32,7 @@ function Attack1()
 					image_blend = c_white
 					}*/
 					image_speed = 1;
-				}
+				//}
 				
 			}
 }

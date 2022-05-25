@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 
-inicialPosicionx = 392;
-inicialPosiciony = 392;
+inicialPosicionx = 672;
+inicialPosiciony = 352;
 
 obj_Boss.x = inicialPosicionx;
 obj_Boss.y = inicialPosiciony;
@@ -20,4 +20,4 @@ groundY = y;
  
 image_speed = .75;
 
-
+createthemosnter = false;
