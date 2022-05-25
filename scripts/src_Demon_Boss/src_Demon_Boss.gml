@@ -2,7 +2,7 @@
 function src_boss_escolher_action(){
 	if Rise = true 
 	{
-		sprite_index = spr_boss_demon_rise;
+		sprite_index = spr_boss_demon_rise57;
 		Rise = false; 
 		alarm[0] = 180;
 	}else{

@@ -12,7 +12,7 @@ spd = 1.75;
  
 isHit = false;
  
-maxLife = 0;
+maxLife = 0; 
 Life = maxLife;
  
 onGround = true;
