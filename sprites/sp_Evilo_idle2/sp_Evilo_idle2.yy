@@ -25,8 +25,8 @@
   "gridY": 16,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"93051f9e-713f-44f5-95b5-58636d48c9fe","path":"sprites/sp_Evilo_idle2/sp_Evilo_idle2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"93051f9e-713f-44f5-95b5-58636d48c9fe","path":"sprites/sp_Evilo_idle2/sp_Evilo_idle2.yy",},"LayerId":{"name":"3fc3b45d-58ff-4ae3-9270-0e8b2cfcd425","path":"sprites/sp_Evilo_idle2/sp_Evilo_idle2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"93051f9e-713f-44f5-95b5-58636d48c9fe","path":"sprites/sp_Evilo_idle2/sp_Evilo_idle2.yy",},"LayerId":{"name":"f2b82bb6-2f02-4c7f-9510-4c1bb28ec139","path":"sprites/sp_Evilo_idle2/sp_Evilo_idle2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"93051f9e-713f-44f5-95b5-58636d48c9fe","path":"sprites/sp_Evilo_idle2/sp_Evilo_idle2.yy",},"LayerId":{"name":"3fc3b45d-58ff-4ae3-9270-0e8b2cfcd425","path":"sprites/sp_Evilo_idle2/sp_Evilo_idle2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sp_Evilo_idle2","path":"sprites/sp_Evilo_idle2/sp_Evilo_idle2.yy",},"resourceVersion":"1.0","name":"93051f9e-713f-44f5-95b5-58636d48c9fe","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
