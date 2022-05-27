@@ -1,9 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+
  
 if (Life>0)  //se tiver vida faça step
 {
 	scr_Move()
+	
 	if obj_Player.x != x{
     image_xscale = sign(obj_Player.x - x);}
 	
@@ -12,6 +14,7 @@ with obj_Player{ //recebe os eventos e aplica ao obj player
 	Attack1() //Script de dano
 	Hit_Player()
 }
+
 	
 } else {
 	

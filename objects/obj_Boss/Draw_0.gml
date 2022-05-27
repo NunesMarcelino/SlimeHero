@@ -12,7 +12,8 @@ draw_ellipse(x-42,y+13,x+36,y+32,false);
 draw_set_alpha(1);
 draw_self();
 draw_set_color(c_blue);
-draw_text(x-30,y-70,string(Life)+" / "+string(maxLife));
-
+if (Life > 0) {
+draw_text(x-45,y-70,string(Life)+" / "+string(maxLife));
+}
 //draw_path(path,x,y,true) //desenha o caminho
 //

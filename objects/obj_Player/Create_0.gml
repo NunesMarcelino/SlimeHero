@@ -39,7 +39,7 @@ healthbar_y = 35;
 //attack Cooldown
 
 attackCD = 0.25;
-attackDMG = 16;
+attackDMG = 15;
 target = noone;
 canAttack = true;
 attackSpeed = 30;
