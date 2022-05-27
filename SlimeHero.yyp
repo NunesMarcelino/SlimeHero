@@ -71,7 +71,7 @@
     {"id":{"name":"sp_flower1","path":"sprites/sp_flower1/sp_flower1.yy",},"order":8,},
     {"id":{"name":"ts_forest","path":"tilesets/ts_forest/ts_forest.yy",},"order":5,},
     {"id":{"name":"sp_coliderNotYet","path":"sprites/sp_coliderNotYet/sp_coliderNotYet.yy",},"order":11,},
-    {"id":{"name":"sc_attack","path":"scripts/sc_attack/sc_attack.yy",},"order":0,},
+    {"id":{"name":"src_Slime_boss","path":"scripts/src_Slime_boss/src_Slime_boss.yy",},"order":0,},
     {"id":{"name":"sp_Evilo_death3","path":"sprites/sp_Evilo_death3/sp_Evilo_death3.yy",},"order":2,},
     {"id":{"name":"obj_Portal","path":"objects/obj_Portal/obj_Portal.yy",},"order":4,},
     {"id":{"name":"Sprite3556","path":"sprites/Sprite3556/Sprite3556.yy",},"order":17,},
