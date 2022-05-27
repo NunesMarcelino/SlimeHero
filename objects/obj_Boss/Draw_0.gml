@@ -13,7 +13,7 @@ draw_set_alpha(1);
 draw_self();
 draw_set_color(c_blue);
 if (Life > 0) {
-draw_text(x-45,y-70,string(Life)+" / "+string(maxLife));
+draw_text(x-70,y-70,string(Life)+" / "+string(maxLife));
 }
 //draw_path(path,x,y,true) //desenha o caminho
 //

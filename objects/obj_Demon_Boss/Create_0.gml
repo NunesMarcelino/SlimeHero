@@ -19,7 +19,7 @@ dest_x = 0;//direção da imagem
 //dest_y = 0;
 
 //tocar o camramba
-ataque = 5;
+ataque = 4;
 
 global.StopDamage = false;
 Rise = true;
@@ -27,4 +27,5 @@ deathDemon = false;
 //disponivel
 dp = true;
 
+gamerule = true
 

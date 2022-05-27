@@ -10,5 +10,4 @@
 		instance_create_layer(x,y,"Instances",obj_Portal);
 		instance_destroy();
 	}
-	
-	
+

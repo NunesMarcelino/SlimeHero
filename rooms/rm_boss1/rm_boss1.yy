@@ -20,7 +20,7 @@
     {"assets":[],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Assets_1","tags":[],"resourceType":"GMRAssetLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":160.0,"resourceVersion":"1.0","name":"inst_2456B414_1","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Demon_Boss","path":"objects/obj_Demon_Boss/obj_Demon_Boss.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":800.0,"y":352.0,"resourceVersion":"1.0","name":"inst_193CF6F0","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Boss","path":"objects/obj_Boss/obj_Boss.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":736.0,"y":384.0,"resourceVersion":"1.0","name":"inst_32FA5E29","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_grid","path":"objects/obj_grid/obj_grid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":96.0,"resourceVersion":"1.0","name":"inst_619D6A9D","tags":[],"resourceType":"GMRInstance",},
@@ -45,7 +45,7 @@
     {"name":"inst_2456B414_1","path":"rooms/rm_boss1/rm_boss1.yy",},
     {"name":"inst_7569EE68","path":"rooms/rm_boss1/rm_boss1.yy",},
     {"name":"inst_619D6A9D","path":"rooms/rm_boss1/rm_boss1.yy",},
-    {"name":"inst_193CF6F0","path":"rooms/rm_boss1/rm_boss1.yy",},
+    {"name":"inst_32FA5E29","path":"rooms/rm_boss1/rm_boss1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

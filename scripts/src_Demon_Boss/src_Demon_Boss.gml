@@ -22,7 +22,7 @@ function src_boss_ataque_1(){ //Projetil
 	//parar de andar
 	src_boss_stop_walk();
 	//Tocar a la caramba
-	if (Life > 400)
+	/*if (Life > 400)
 	{
 		var _dir = 0;
 	
@@ -37,7 +37,12 @@ function src_boss_ataque_1(){ //Projetil
 	
 	}//menos vida
 	else 
-	{
+	
+		}
+estado = src_boss_escolher_action;
+}
+	{*/
+	
 	 if ataque mod 2 == 1 {
 		 var _dir = 0;
 	 }else if ataque mod 2 == 0{
@@ -60,11 +65,10 @@ function src_boss_ataque_1(){ //Projetil
 			}
 		} else 
 			{
-			estado = src_boss_escolher_action;
+			gamerule = true
 			ataque = 5;
+			estado = src_boss_escolher_action;
 			}
-	}
-estado = src_boss_escolher_action;
 }
 
 function src_boss_ataque_2(){ //Melle
@@ -126,7 +130,7 @@ function src_boss_atacando()
 	    } 
 			else 
 			{
-		       estado = src_boss_escolher_action;
+		       estado = src_boss_ataque_1;
 			}
 		}
 		

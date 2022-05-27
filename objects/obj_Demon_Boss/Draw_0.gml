@@ -16,7 +16,7 @@ draw_set_alpha(1);
 draw_self();
 draw_set_color(c_red);
 if (Life > 0){
-draw_text(x-50, y-120,string(Life)+" / "+string(maxLife));
+draw_text(x-60, y-120,string(Life)+" / "+string(maxLife));
 }
 
 //var _x1
