@@ -18,9 +18,10 @@ function Attack1(){
 			{ 
 				receiveDamage = false
 				actualLife-=10;
+				alarm [0] = 50
 			}
 
-if receiveDamage != false {image_alpha=1 image_blend = c_white} //cor normal quando não recebe dano
+ //cor normal quando não recebe dano
 			
 function Hit_Player(){
 	//fazer o player piscar com o dano recebido
@@ -40,6 +41,7 @@ function Attack2(){
 	{ 
 		receiveDamage = false
 		actualLife-=10;
+		alarm [0] = 50
 	}
 	with(obj_Boss){
 		if Life > 0 and Life <=70{

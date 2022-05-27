@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+if receiveDamage != false {image_alpha=1 image_blend = c_white}
 
 //Get input (keyboard)
 if (actualLife > 0)//control deactive if life equal zero

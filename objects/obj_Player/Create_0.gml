@@ -22,7 +22,7 @@ spd = 64;
 lastDirection = "none";
 
 //set life
-maxLife = 100;
+maxLife = 150;
 beforeLife = maxLife;
 actualLife = maxLife;
 isHit = false;
@@ -39,7 +39,7 @@ healthbar_y = 35;
 //attack Cooldown
 
 attackCD = 0.25;
-attackDMG = 10;
+attackDMG = 15;
 target = noone;
 canAttack = true;
 attackSpeed = 30;

@@ -15,4 +15,15 @@ if dest_x > x{
 draw_set_alpha(1);
 draw_self();
 draw_set_color(c_red);
-draw_text(x-60, y-120,string(Life)+" / "+string(maxLife));
+if (Life > 0){
+draw_text(x-50, y-120,string(Life)+" / "+string(maxLife));
+}
+
+//var _x1
+//var _x2
+//var _y1
+//var _y2
+		
+//if image_xscale == 2{ _x1 = x - 50; _x2 = x - 300	; _y1 = y + 100; _y2 = y - 100}
+//if image_xscale == -2{ _x1 = x + 50; _x2 = x + 300; _y1 = y + 100; _y2 = y -100}
+//draw_rectangle(_x1,_y1,_x2,_y2,true)
