@@ -17,7 +17,7 @@ function Attack1(){
 			if place_meeting(x+i,y+j,obj_Boss) and receiveDamage == true
 			{ 
 				receiveDamage = false
-				actualLife-=10;
+				actualLife-=10
 				alarm [0] = 50
 			}
 

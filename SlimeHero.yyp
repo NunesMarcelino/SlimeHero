@@ -105,10 +105,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_startGame","path":"rooms/rm_startGame/rm_startGame.yy",},},
     {"roomId":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
     {"roomId":{"name":"rm_boss1","path":"rooms/rm_boss1/rm_boss1.yy",},},
     {"roomId":{"name":"rm_texDialogue","path":"rooms/rm_texDialogue/rm_texDialogue.yy",},},
-    {"roomId":{"name":"rm_startGame","path":"rooms/rm_startGame/rm_startGame.yy",},},
     {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
     {"roomId":{"name":"rm_tutorial2","path":"rooms/rm_tutorial2/rm_tutorial2.yy",},},
     {"groupName":"SomethingElse","children":[],},

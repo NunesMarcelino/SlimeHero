@@ -6,11 +6,7 @@ global.endgame = false;
 
 //inicial position
 
-ipx = 93;
-ipy = 99;
 
-obj_Player.x = ipx;
-obj_Player.y = ipy;
 
 onGround = true;
 groundY = y;
