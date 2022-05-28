@@ -14,7 +14,7 @@
 
 
 <h3 align="Center"><strong>
-    Assets(Creditos)
+    Assets(Créditos)
   </h3>
 <p align="center">
   <a href="https://pixelmochii.itch.io/mochii-plains" alt="Mochii's Plains Tileset by Mochii" >
