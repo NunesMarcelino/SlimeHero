@@ -3,9 +3,11 @@
   </h1>
  <p align="Center">
   - Jogo desenvolvido como uma experiencia de aprendizado de uma nova liguaguem(GML) em uma nova IDE (GameMaker) para trazer uma problematica, o esforço.
-  - Devs
-   Carlos Silva, Ciro Erick, Mateus Nunes
   </p>
+  <p>
+   - Devs
+   Carlos Silva, Ciro Erick, Mateus Nunes
+    </p>
 
 
 <h3 align="Center"><strong>
