@@ -8,3 +8,4 @@ pausedSurface = -1
 
 pausable = noone;
 
+level = 0;

@@ -42,6 +42,13 @@ function scr_game_text(_text_id)
 			scr_text("...quem sabe mais tarde?")
 		break;
 		
+		case "portal":
+			scr_text("hmm, não acredito estar pronto ainda...")
+			scr_text("Talvez eu deva explorar um pouco mais antes de voltar aqui")
+			
+		case "portal_2":
+			scr_text("VAMOS NESSA!!")
+		
 		case "vovo":
 			scr_text("Oh, ai esta voce")
 			scr_text("andei lhe procurando")
